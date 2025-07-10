@@ -269,3 +269,52 @@ header {
 .focus-better-img {
     border-radius: 48px;
 }
+
+/* newsletter section */
+.newsletter {
+    max-width: 1140px;
+    margin: 92.23px auto 14px;
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+}
+
+.newsletter-title {
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+    color: black;
+    width: 50%;
+}
+
+.newsletter form {
+    width: 50%;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 19px;
+    padding: 20px 32px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 150%;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+
+.input-btn {
+    width: 100%;
+    padding: 19px 101px;
+}
+
+.newsletter label {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+}
