@@ -322,3 +322,45 @@ header {
 .newsletter > form > textarea {
     resize: none;
 }
+
+/* footer section */
+footer {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    max-width: 531px;
+    margin: 104px auto;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 150%;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+.link-container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.link-container li a,
+.link-container li a:visited {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 150%;
+}
