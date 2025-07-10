@@ -13,3 +13,46 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* shared colors */
+.color-primary {
+    color: #4E47FF;
+}
+
+/* shared buttons */
+.btn-primary {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+header {
+    background-image: url('../assets/hero-bg.png');
+}
+
+/* navbar section */
+.navbar {
+    max-width: 1140px;
+    height: 151px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 900;
+}
