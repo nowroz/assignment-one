@@ -115,3 +115,35 @@ header {
     border: none;
     border-radius: 48px;
 }
+
+/* productive-users section */
+.productive-users {
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    margin: 116px auto 137px;
+    padding: 50px 142px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.productive-users-title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-column > h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.data-column > p {
+    font-size: 20px;
+    font-weight: normal;
+}
