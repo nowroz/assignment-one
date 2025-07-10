@@ -35,6 +35,7 @@
 .btn-primary {
     font-size: 16px;
     font-weight: bold;
+    line-height: 150%;
     color: white;
     background-color: #4E47FF;
     border: none;
@@ -80,6 +81,7 @@ header {
 .logo {
     font-size: 34px;
     font-weight: 900;
+    line-height: 150%;
 }
 
 /* banner-content section */
@@ -117,6 +119,7 @@ header {
 .action-content-description {
     font-size: 24px;
     font-weight: normal;
+    line-height: 30px;
     margin-bottom: 23px;
 }
 
@@ -228,4 +231,41 @@ header {
     font-weight: normal;
     line-height: 140%;
     color: #B3B3B3;
+}
+
+/* focus-better section */
+/* No marks but doing it anyway */
+.focus-better {
+    background-color: white;
+    max-width: 1140px;
+    margin: 137px auto 92.23px;
+    padding: 71px 150px;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.focus-better-title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.focus-better-description {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.focus-better-btn {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.focus-better-img {
+    border-radius: 48px;
 }
